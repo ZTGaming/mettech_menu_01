@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+section {
+  height: 110vh;
+  color: black;
+}
+
+section h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 80px;
+    color: #fff;
+}
+
+.destination{
+  text-align: center;
+  background-color: black;
+
+}
+
+.destination .content{
+text-align: center;
+
+  background-color: black;
+}
+
+
+.destination .destinationList{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 40px;
+  background-color: black;
+}
+
+.destination .destinationList .box{
+  position: relative;
+  min-width: 350px;
+  height: 400px;
+  background: #191919;
+  transition: 0.5s;
+  margin: 10px;
+
+}
+
+.destination .destinationList:hover .box{
+  opacity: 0.2;
+}
+
+
+.destination .destinationList .box:hover{
+  opacity: 1;
+}
+
+.destination .destinationList .box .imgBx{
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.destination .destinationList .box .content{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.destination .destinationList .box h2{
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.2em;
+  margin-top: 450px;
+
+}
+
+.destination .destinationList .box h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+  opacity: 0.5;
+}
